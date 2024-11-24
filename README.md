@@ -10,16 +10,16 @@ Ogni fiume viene rappresentato con un ramo principale (main branch) e dei tribut
 I fiumi sono disposti in una griglia di 4 colonne
 Le dimensioni sono scalate in base alla dimensione della finestra usando scaleFactor
 
-1.Ramo Principale (drawMainBranch):
+1. Ramo Principale (drawMainBranch):
 - La lunghezza è proporzionale alla lunghezza reale del fiume
 - La larghezza è proporzionale all'area del bacino del fiume
 - Viene disegnato usando una curva Bézier per dare un aspetto naturale e fluido
 
-2.Logica rappresentazione dei Tributari (drawTributaries):
--Mantenere leggibilità anche con fiumi che hanno molti tributari
--Mantiene una rappresentazione 1:1 fino a 10 tributari
--Comprime progressivamente i numeri più alti per evitare sovraffollamento
--Ha un limite massimo di 25 tributari visualizzati
+2. Logica rappresentazione dei Tributari (drawTributaries):
+- Mantenere leggibilità anche con fiumi che hanno molti tributari
+- Mantiene una rappresentazione 1:1 fino a 10 tributari
+- Comprime progressivamente i numeri più alti per evitare sovraffollamento
+- Ha un limite massimo di 25 tributari visualizzati
 
 
 Come funziona la rappresentazione 
@@ -28,6 +28,6 @@ Scala la dimensione dei tributari inversamente al loro numero (più sono, più p
 Usa variazioni fisse per lunghezza e angolo per creare un aspetto più naturale:
            
   Variazioni:
-  -Sempre uguali per lo stesso indice
-  -Si ripetono ogni 3-5 tributari
-  -Variazioni del 10%
+  - Sempre uguali per lo stesso indice
+  - Si ripetono ogni 3-5 tributari
+  - Variazioni del 10%
