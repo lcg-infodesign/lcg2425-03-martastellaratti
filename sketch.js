@@ -1,3 +1,4 @@
+
 let data = [];          // Array che conterrà tutti i dati dei fiumi
 let maxLength = 0;      // Lunghezza massima tra tutti i fiumi
 let maxArea = 0;        // Area massima tra tutti i fiumi
@@ -205,7 +206,6 @@ function windowResized() {
   resizeCanvas(windowWidth, Math.max(totalHeight, windowHeight));
   redraw();
 }
-
 
 
 
