@@ -11,9 +11,9 @@ I fiumi sono disposti in una griglia di 4 colonne
 Le dimensioni sono scalate in base alla dimensione della finestra usando scaleFactor
 
 1.Ramo Principale (drawMainBranch):
--La lunghezza è proporzionale alla lunghezza reale del fiume
--La larghezza è proporzionale all'area del bacino del fiume
--Viene disegnato usando una curva Bézier per dare un aspetto naturale e fluido
+- La lunghezza è proporzionale alla lunghezza reale del fiume
+- La larghezza è proporzionale all'area del bacino del fiume
+- Viene disegnato usando una curva Bézier per dare un aspetto naturale e fluido
 
 2.Logica rappresentazione dei Tributari (drawTributaries):
 -Mantenere leggibilità anche con fiumi che hanno molti tributari
